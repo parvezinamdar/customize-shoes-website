@@ -1,0 +1,30 @@
+.nikeText{
+    position: absolute;
+    top: 66%;
+    left: 4%;
+}
+.nikeLogo img{
+    width: 40px;
+    height: 40px;
+    top: 58%;
+    left: 4%;
+}
+@media (max-width: 705px){
+    .nikeText{
+        top: 58.5%;
+    }
+    .nikeLogo img{
+        top: 49.5%;
+    }
+}
+@media (max-width: 500px){
+    .nikeText{
+        top: 52.5%;
+    }
+    .nikeLogo img{
+        top: 48.5%;
+        width: 20px;
+        height: 20px;
+    }
+    
+}

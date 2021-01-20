@@ -1,0 +1,9 @@
+
+@media (max-width:788px){
+    .about-lists .content-item {
+        padding: 40px;
+        border-left: none;
+        border-bottom: 1px solid #d9e8f4;
+        margin: -1px;
+    }
+}

@@ -1,0 +1,28 @@
+.drawer-toggle{
+    width: 35px;
+    height: 70%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    z-index: 100;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.drawer-toggle div{
+    width: 90%;
+    height: 3px;
+    background-color: #FF1D58;
+}
+@media (max-width: 990px){
+    .drawer-toggle{
+       margin-left: 30px;
+    }
+}
+@media (min-width: 990px){
+    .drawer-toggle{
+        display: none;
+    }
+}

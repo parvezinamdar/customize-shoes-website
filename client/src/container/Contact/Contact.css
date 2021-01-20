@@ -1,0 +1,28 @@
+.contact-data{
+    width: 80% !important;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 40px 35px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.contact-data h5{
+    color: #FF1D58;
+}
+.require-data{
+    color: rgb(255, 20, 20);
+    padding: 0 10px;
+    font-size: 12px;
+    margin: 10px 0 5px;
+}
+.require-data .fa-asterisk {
+    font-size: 8px !important;
+}
+
+/* @media (min-width: 600px){
+    .contact-data {
+        width: 200px;
+    }
+} */

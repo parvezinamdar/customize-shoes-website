@@ -1,0 +1,140 @@
+/* --------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+    background: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+  
+#topbar .contact-info a {
+    line-height: 1;
+    color: #444;
+    transition: 0.3s;
+}
+  
+#topbar .contact-info a:hover {
+    color: #FF1D58;
+}
+  
+#topbar .contact-info i {
+    color: #FF1D58;
+    padding: 4px;
+}
+  
+#topbar .contact-info .icofont-phone {
+    padding-left: 20px;
+    margin-left: 10px;
+}
+  
+#topbar .social-links a {
+    color: #424242;
+    padding: 4px 12px;
+    display: inline-block;
+    line-height: 1px;
+    transition: 0.3s;
+}
+  
+#topbar .social-links a:hover {
+    color: #FF1D58;
+}
+  
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+    height: 70px;
+    transition: all 0.5s;
+    transition: all 0.5s;
+    padding:0;
+    background: #fff;
+    z-index: 997;
+}
+  
+#header.header-scrolled {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+  
+#header .logo h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+  
+#header .logo h1 a, #header .logo h1 a:hover {
+    color: #FF1D58;
+    text-decoration: none;
+}
+  
+
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Desktop Navigation */
+.nav-menu, .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+.nav-menu > ul > li {
+    position: relative;
+    white-space: nowrap;
+    float: left;
+}
+ul{
+    list-style: none;
+}
+.nav-menu ul{
+    
+    display: flex;
+}
+.nav-menu a {
+    display: block;
+    position: relative;
+    color: #424242;
+    padding: 12px 15px;
+    transition: 0.3s;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+.started{
+    background-color: #FF1D58 !important;
+    color: #fff !important;
+}
+.started:hover{
+    background-color: rgba(241, 13, 74, 0.929) !important;
+}
+  
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+    color: #FF1D58;
+    text-decoration: none;
+}
+.nav-menu a.active {
+    color: #ff1f5a;
+}
+.toolbar-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center !important;
+}
+
+@media (max-width: 990px){
+    .toolbar-nav{
+        margin:0;
+        justify-content: flex-start;
+    }
+}
+.about-link{
+    cursor: pointer;
+}
+.about-link:hover{
+    color: #FF1D58 !important;
+}

@@ -1,0 +1,85 @@
+.card{
+    position: relative;
+    border: none;
+}
+.shoes-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #f2f2f2;
+    padding: 90px 0 20px;
+    margin: 0 40px;
+}
+.imgShoes img{
+    width: 100% !important;
+}
+.imgShoes svg{
+    position: absolute !important;
+}
+.product-svg{
+    position: relative;
+    z-index: 2;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    mix-blend-mode: multiply;
+}
+.product-svg path{
+    transition: all 0.3s;
+    fill:none;
+}
+.nameText{
+    z-index: 2;
+}
+.konvajs-content{
+    z-index: 2 !important;
+    overflow: hidden !important;
+    transform: rotate(4deg) !important;
+    display: flex;
+    justify-content: start;
+}
+#upperText{
+    cursor: pointer !important;
+}
+.imgLogo img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 10;
+}
+.shoesactive{
+    animation: highlight 2s ease;
+}
+.cls-1{
+    fill-rule: evenodd;
+}
+@keyframes highlight{
+    0%{
+        opacity: 0;
+        fill: rgb(233, 233, 233);
+    }
+    25%{
+        opacity: 1;
+        fill: rgb(233, 233, 233);
+    }
+    50%{
+        opacity: 0;
+        fill: rgb(233, 233, 233);
+    }
+    75%{
+        opacity: 1;
+        fill: rgb(233, 233, 233);
+    }
+    100%{
+        opacity: 0;
+        fill: rgb(233, 233, 233);
+    }
+}
+
+@media (max-width: 700px){
+    .shoes-content{
+        padding: 30px 0 !important;
+        margin: 0 !important;
+    }
+}

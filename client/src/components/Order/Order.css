@@ -1,0 +1,11 @@
+.order {
+    width: 80%;
+    border: 1px solid #eee;
+    padding: 20px 30px;
+    margin: 20px auto;
+    box-sizing:  border-box;
+    background-color: #fff;
+}
+.order p{
+    text-transform: capitalize;
+}

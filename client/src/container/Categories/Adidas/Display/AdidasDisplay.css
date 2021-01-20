@@ -1,0 +1,35 @@
+
+.adidasText{
+    position: absolute;
+    bottom: 21.5%;
+    right: 33%;
+}
+.adidasLogo img{
+    width: 40px;
+    height: 40px;
+    top: 61%;
+    left: 10%;
+}
+@media (max-width: 705px){
+    .adidasText{
+        bottom: 26.8%;
+        right: 33%;
+    }
+    .adidasLogo img{
+        top: 52.8%;
+        left: 9%;
+    }
+}
+@media (max-width: 500px){
+    .adidasText{
+        bottom: 28.8%;
+        right: 22%;
+    }
+    .adidasLogo img{
+        width: 25px;
+        height: 25px;
+        top: 50.8%;
+        left: 9%;
+    }
+    
+}

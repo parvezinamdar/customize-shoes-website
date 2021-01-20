@@ -1,0 +1,30 @@
+.vintageText{
+    position: absolute;
+    top: 67%;
+    left: 4%;
+}
+.vintageLogo img{
+    width: 75px;
+    height: 75px;
+    top: 57%;
+    left: 40%;
+}
+@media (max-width: 705px){
+    .vintageText{
+        top: 59%;
+    }
+    .vintageLogo img{
+        width: 60px;
+        height: 60px;
+        top: 51%;
+    }
+}
+@media (max-width: 500px){
+    .vintageText{
+        top: 52.5%;
+    }
+    .vintageLogo img{
+        width: 38px;
+        height: 38px;
+    }
+}
